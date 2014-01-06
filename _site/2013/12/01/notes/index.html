@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/css/style.css"/>
+    <title>this is my name</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    </head>
+    <body>START
+    <div class='highlight'><pre><code class='perl'><span class='k'>my</span> <span class='nv'>$whatever</span> <span class='o'>=</span> <span class='s'>&#39;I&#39;</span><span class='n'>m</span> <span class='n'>just</span> <span class='n'>testing</span><span class='err'>&#39;</span><span class='p'>;</span>
+</code></pre></div>
+<p>Enjoying Guido&#8217;s blog this fine Sunday mountain morning, came across a Python &#8216;dirty little secret&#8217;. Looking for a good test to evaluate a Python programmer&#8217;s skills? Ask them what the following would do.</p>
+<div class='highlight'><pre><code class='python'>    <span class='n'>x</span> <span class='o'>=</span> <span class='s'>&#39;hello&#39;</span>
+    <span class='n'>a</span> <span class='o'>=</span> <span class='p'>[</span><span class='n'>x</span> <span class='k'>for</span> <span class='n'>x</span> <span class='ow'>in</span> <span class='mi'>1</span><span class='p'>,</span> <span class='mi'>2</span><span class='p'>,</span> <span class='mi'>3</span><span class='p'>]</span>
+    <span class='k'>print</span> <span class='n'>x</span>
+</code></pre></div>
+<p>&#8220;What version of python?&#8221; - because python2/python3 are, well different.</p>
+
+<p>A straightforward answer would be &#8216;hello&#8217;, because scope variables shouldn&#8217;t leak outside their scope. Of course this wouldn&#8217;t be very interesting if Python were perfect, because python 2 had this leaky behavior.</p>
+
+<p>But what if the programmer was clever and asked whether it was being run in Py2 or Py3, and you answered Python 3? Their reply should be&#8230; <em>syntax error</em></p>
+
+<p>Why? Because the list in the list comphrenesion needs explicit ()&#8217;s and print is now a formal function, and also needs explicit ()&#8217;s.</p>
+
+<p>Okay, so say we fix those basic syntax errors in Python 3. Now what? Answer == <em>hello</em></p>
+
+<p>Then if you answer Python 2, the answer is 3.</p>
+
+<p>First, it would be good to</p>
+    END
+    </body>
+ </html>

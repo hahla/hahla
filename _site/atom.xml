@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>ms</title>
+  <link href="http://hahla.com/atom.xml" rel="self"/>
+  <link href="http://hahla.com/"/>
+  <updated>2013-12-03T15:19:08-07:00</updated>
+  <id>http://hahla.com/</id>
+  <author>
+    <name>michael salmon</name>
+    <email></email>
+  </author>
+  
+  <entry>
+    <title>sideboob and underbutt</title>
+    <link href="http://hahla.com"/>
+    <updated>2013-12-02T00:00:00-07:00</updated>
+    <id>http://hahla.com/2013/12/02/uu</id>
+    <content type="html">&lt;p&gt;Hanging out in a snow storm with your girlfriend can lead to a few interesting learning lessons via the urban outfitters message board on how some girls fit into clothes. Sure I knew about side-boob, but now I am aware of something called underbutt (or as I like to call it - the undertow).&lt;/p&gt;
+
+&lt;p&gt;She recommends wearing tights with the itty bitty shorts.&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
+    <title>Python</title>
+    <link href="http://hahla.com"/>
+    <updated>2013-12-01T00:00:00-07:00</updated>
+    <id>http://hahla.com/2013/12/01/python</id>
+    <content type="html">&lt;h1 id=&#39;im_going_to_keep_a_list_of_python_references_i_find_important&#39;&gt;I&amp;#8217;m going to keep a list of python references I find &lt;strong&gt;important&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;h2 id=&#39;note_that_im_just_testing_another_header&#39;&gt;note that i&amp;#8217;m just testing another header&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;note that i&amp;#8217;m just testing an bubble here&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&#39;http://www.diveintopython3.net/special-method-names.html&#39;&gt;python 3 special methods&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;official value of object: repr(x): x.__repr__()&lt;/li&gt;
+
+&lt;li&gt;informal value str(x) &amp;#8230; x.__str__()&lt;/li&gt;
+
+&lt;li&gt;bytes(x)&amp;#8230; x.__bytes__()&lt;/li&gt;
+
+&lt;li&gt;format(x, format_spec), x__format__ (&lt;a href=&#39;http://www.python.org/doc/3.1/library/string.html#formatspec&#39;&gt;format_spec&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[&lt;a href=&#39;http://blah&#39;&gt;whatever&lt;/a&gt;]&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
+    <title>tbd</title>
+    <link href="http://hahla.com"/>
+    <updated>2013-12-01T00:00:00-07:00</updated>
+    <id>http://hahla.com/2013/12/01/notes</id>
+    <content type="html">&lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;perl&#39;&gt;&lt;span class=&#39;k&#39;&gt;my&lt;/span&gt; &lt;span class=&#39;nv&#39;&gt;$whatever&lt;/span&gt; &lt;span class=&#39;o&#39;&gt;=&lt;/span&gt; &lt;span class=&#39;s&#39;&gt;&amp;#39;I&amp;#39;&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;m&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;just&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;testing&lt;/span&gt;&lt;span class=&#39;err&#39;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Enjoying Guido&amp;#8217;s blog this fine Sunday mountain morning, came across a Python &amp;#8216;dirty little secret&amp;#8217;. Looking for a good test to evaluate a Python programmer&amp;#8217;s skills? Ask them what the following would do.&lt;/p&gt;
+&lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;python&#39;&gt;    &lt;span class=&#39;n&#39;&gt;x&lt;/span&gt; &lt;span class=&#39;o&#39;&gt;=&lt;/span&gt; &lt;span class=&#39;s&#39;&gt;&amp;#39;hello&amp;#39;&lt;/span&gt;
+    &lt;span class=&#39;n&#39;&gt;a&lt;/span&gt; &lt;span class=&#39;o&#39;&gt;=&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;[&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;x&lt;/span&gt; &lt;span class=&#39;k&#39;&gt;for&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;x&lt;/span&gt; &lt;span class=&#39;ow&#39;&gt;in&lt;/span&gt; &lt;span class=&#39;mi&#39;&gt;1&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;,&lt;/span&gt; &lt;span class=&#39;mi&#39;&gt;2&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;,&lt;/span&gt; &lt;span class=&#39;mi&#39;&gt;3&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;]&lt;/span&gt;
+    &lt;span class=&#39;k&#39;&gt;print&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;x&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&amp;#8220;What version of python?&amp;#8221; - because python2/python3 are, well different.&lt;/p&gt;
+
+&lt;p&gt;A straightforward answer would be &amp;#8216;hello&amp;#8217;, because scope variables shouldn&amp;#8217;t leak outside their scope. Of course this wouldn&amp;#8217;t be very interesting if Python were perfect, because python 2 had this leaky behavior.&lt;/p&gt;
+
+&lt;p&gt;But what if the programmer was clever and asked whether it was being run in Py2 or Py3, and you answered Python 3? Their reply should be&amp;#8230; &lt;em&gt;syntax error&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Why? Because the list in the list comphrenesion needs explicit ()&amp;#8217;s and print is now a formal function, and also needs explicit ()&amp;#8217;s.&lt;/p&gt;
+
+&lt;p&gt;Okay, so say we fix those basic syntax errors in Python 3. Now what? Answer == &lt;em&gt;hello&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Then if you answer Python 2, the answer is 3.&lt;/p&gt;
+
+&lt;p&gt;First, it would be good to&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
+    <title>List</title>
+    <link href="http://hahla.com"/>
+    <updated>2013-12-01T00:00:00-07:00</updated>
+    <id>http://hahla.com/2013/12/01/list</id>
+    <content type="html">&lt;p&gt;tine&amp;#8230; pink fuji instant cam, elephant zine subscription, sharon&amp;#8230; dj stuff aaron.. a fancy tool dad&amp;#8230; some gps thing or badass hiker thing&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
+    <title>Congo</title>
+    <link href="http://hahla.com"/>
+    <updated>2013-12-01T00:00:00-07:00</updated>
+    <id>http://hahla.com/2013/12/01/congo</id>
+    <content type="html">&lt;p&gt;okapi ruwenzoris khinsasa duiker liana&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
+    <title>niceness</title>
+    <link href="http://hahla.com"/>
+    <updated>2013-11-29T00:00:00-07:00</updated>
+    <id>http://hahla.com/2013/11/29/niceness</id>
+    <content type="html">&lt;p&gt;I&amp;#8217;m here in Park City with my girlfriend &lt;a href=&#39;http://tine.ms.mixture.io&#39;&gt;Christine&lt;/a&gt; visiting my dad. Right now we&amp;#8217;re watching some Penn State football (his alma mater). Hackenberg just made a 59-yard touchdown pass, he&amp;#8217;s 20-27 in passing today and leading a big upset over Wisconsin - in other words dad&amp;#8217;s excited.&lt;/p&gt;
+
+&lt;p&gt;Yesterday we were watching the local news and they did a special story on Brylee Olson and her family, Brylee has a esrious tumour on her brainstem. The story is online if you want to read it at &lt;a href=&#39;http://www.deseretnews.com/interactive/2013/brylees-wings/&#39;&gt;Desert News&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Now I&amp;#8217;m planning on building a twisted/flask benchmark to compare firsthand the load/perf benefits for async and sync frameworks&amp;#8230;&lt;/p&gt;
+
+&lt;p&gt;TODO&lt;/p&gt;
+
+&lt;p&gt;GET /primes/n&lt;/p&gt;
+
+&lt;h1 id=&#39;using_deferreds_and_nested_generators&#39;&gt;using deferreds and nested generators&lt;/h1&gt;
+
+&lt;p&gt;method_get(request): d.addCallback(get_primes(n), errback) return d.result()&lt;/p&gt;
+
+&lt;h1 id=&#39;i_forget_flasks_method_offhand_but_roughly&#39;&gt;I forget flask&amp;#8217;s method offhand, but roughly&lt;/h1&gt;
+
+&lt;p&gt;route_get(): return get_primes(n)&lt;/p&gt;
+
+&lt;p&gt;also.. TODO&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Do more greenlet tests&lt;/li&gt;
+
+&lt;li&gt;organize my ipython scripts&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  
+  <entry>
+    <title>more awaits for those who async</title>
+    <link href="http://hahla.com"/>
+    <updated>2013-11-28T00:00:00-07:00</updated>
+    <id>http://hahla.com/2013/11/28/await</id>
+    <content type="html">&lt;p&gt;I begin to find it interesting how call-stacks and application state is now considered magic with await/async/generators and &lt;a href=&#39;http://bjouhier.wordpress.com/2013/06/01/bringing-asyncawait-to-life-in-javascript/&#39;&gt;all that&lt;/a&gt;. Has everyone forgotten about a state machine with an event loop?&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#39;http://krondo.com/?page_id=1327&#39;&gt;Krondo&amp;#8217;s slow poetry with twisted&lt;/a&gt;, seems like a slow way to learn something. Possibly the worst way to try and learn twisted in fact. Needs a serious rewrite.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#39;http://devsmash.com/blog/whats-the-big-deal-with-generators&#39;&gt;What&amp;#8217;s the big deal with generators?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;And an interesting library &lt;a href=&#39;https://github.com/jmar777/suspend&#39;&gt;Suspend&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Then I wanted to double check something with python generators, and in some reading came across an article (will go unnamed) with various poor examples that actually don&amp;#8217;t work. Point is, if you&amp;#8217;re going to have a coding blog you should test your code. &lt;a href=&#39;http://www.mediahelpingmedia.org/training-resources/editorial-ethics/237-the-importance-of-accuracy-in-journalism&#39;&gt;Accuracy is essential to all journalism.&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
+    <title>jekyll markdown hijinx</title>
+    <link href="http://hahla.com"/>
+    <updated>2013-11-27T00:00:00-07:00</updated>
+    <id>http://hahla.com/2013/11/27/jekyllbug</id>
+    <content type="html">&lt;p&gt;Okay this was interesting.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#39;http://daringfireball.net/projects/markdown/&#39;&gt;Markdown&lt;/a&gt; is a data format of questionable value.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#39;http://jekyllrb.com&#39;&gt;Jekyll&lt;/a&gt; &amp;#8216;supports&amp;#8217; markdown&amp;#8230; more on that.&lt;/li&gt;
+
+&lt;li&gt;Maruku is the parser jekyll uses.&lt;/li&gt;
+
+&lt;li&gt;Jekyll loads files it &amp;#8216;watches&amp;#8217; and passes to Maruku for processing&lt;/li&gt;
+
+&lt;li&gt;If Maruku has errors it stops and reports them. It doesn&amp;#8217;t continue until a human or alien intelligence has fixed them.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Here&amp;#8217;s the kicker, Jekyll seems to forget to reload the data from disk before running Maruku. At least sometimes. &lt;a href=&#39;http://pastebin.com/4ktDhrbh&#39;&gt;See for yourself&lt;/a&gt;. Try:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;create a post that works&lt;/li&gt;
+
+&lt;li&gt;now break it. many ways to do that, such as &amp;#8217;&amp;#60;li&amp;#62;&amp;#8217; to it without closing it&lt;/li&gt;
+
+&lt;li&gt;maruku will spit an error&lt;/li&gt;
+
+&lt;li&gt;now fix it, e.g. remove it, or close tag&lt;/li&gt;
+
+&lt;li&gt;same maruku error. i.e. it doesn&amp;#8217;t recognize your existance&lt;/li&gt;
+
+&lt;li&gt;laugh out loud, at least until you tire. then restart jekyll and all should be well.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;And to add to my list of reasons why Markdown is odd? &lt;a href=&#39;http://daringfireball.net/projects/markdown/syntax#list&#39;&gt;Checkout how they do ordered lists.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Oh and while I&amp;#8217;m on the topic. &lt;a href=&#39;http://benhollis.net/blog/2013/10/20/maruku-is-obsolete/&#39;&gt;Maruku is obsolete&lt;/a&gt;. But still, seems more like a jekyll caching issue.&lt;/p&gt;
+
+&lt;p&gt;ps. if you&amp;#8217;re wondering why I didn&amp;#8217;t post this as a message to the jekyll developers, open a ticket, etc? because I&amp;#8217;m actually more focused on evaluating the tool quickly and getting something working is more important. In other words thank you for reading this, a meta-post.&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
+    <title>goodies in the key of js</title>
+    <link href="http://hahla.com"/>
+    <updated>2013-11-27T00:00:00-07:00</updated>
+    <id>http://hahla.com/2013/11/27/goodies</id>
+    <content type="html">&lt;p&gt;recently i started using mixture to build a &lt;a href=&#39;http://tine.ms.mixture.io&#39;&gt;site for my gf&lt;/a&gt;. it&amp;#8217;s pretty simple and cute.&lt;/p&gt;
+
+&lt;p&gt;But at the same time I was doing some angular work and wanted to use grunt, yo and bower:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ha, markdown won&amp;#8217;t create a li for the next item without this existing&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#39;http://www.sitepoint.com/kickstart-your-angularjs-development-with-yeoman-grunt-and-bower/&#39;&gt;angularjs + grunt + yo + bower ist rad&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;wtfnote to self re markdown: funny that &amp;#8220;some angular work\n* blah&amp;#8230;&amp;#8221; didn&amp;#8217;t result in an unordered list being started, but &amp;#8220;work\n\n&amp;#8221; did. This is inconsistent with note to self: brackets are weird in markdown. hurrah&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;angular-leaflet: https://github.com/Leaflet/Leaflet&lt;/li&gt;
+
+&lt;li&gt;http://heldr.github.io/bower-components/&lt;/li&gt;
+
+&lt;li&gt;http://underscorejs.org/#&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;then i recalled a mental note to test out jekyll also. and hence this, an experiment with jekyll. which in turn brings me to yaml and markdown. yet more random shit.&lt;/p&gt;
+
+&lt;p&gt;then i came across mixture simple mode and thought to give it a spin considering i paid for it&amp;#8230;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#39;http://benjamin.parry.is/writing/running-jekyll-with-mixture/&#39;&gt;run jekyll and mixture&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#39;http://thanpol.as/jekyll/jekyll-and-livereload-flow/&#39;&gt;run jekyll and livereload&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;thoughts on mixture simple mode w/jekyll or grunt projects&amp;#8230;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;it does minification and pre-processing, which is nice. But frankly who cares for a blog?&lt;/li&gt;
+
+&lt;li&gt;mixture is unable to do live-refresh, which suddenly seems like the only thing I&amp;#8217;d care about.&lt;/li&gt;
+
+&lt;li&gt;result: not sure it&amp;#8217;s worth the overhead&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Okay, so here are some actually interesting things&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;es6 harmony - generators http://wiki.ecmascript.org/doku.php?id=harmony:generators&lt;/li&gt;
+
+&lt;li&gt;monkey patching generators http://bjouhier.wordpress.com/2013/06/01/bringing-asyncawait-to-life-in-javascript/&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Did I tell you that test coverage tools are amazing?&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#39;https://coveralls.io/&#39;&gt;like coveralls&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;wonder if there&amp;#8217;s a &lt;a href=&#39;https://gemnasium.com/&#39;&gt;gemnasium&lt;/a&gt; for pip? found a mention for bundlescout, but it seems &lt;a href=&#39;http://www.bundlescout.com/&#39;&gt;down&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Programming quiz - * Create a page hosted at http://x/, that shows a red background color if an external site (http://y/) is unavilable (anything other than 200 response), or a green background if the external site is up. Do it without a backend server.&lt;/p&gt;</content>
+  </entry>
+  

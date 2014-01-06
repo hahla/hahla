@@ -1,0 +1,35 @@
+<p>Okay this was interesting.</p>
+
+<ol>
+<li><a href='http://daringfireball.net/projects/markdown/'>Markdown</a> is a data format of questionable value.</li>
+
+<li><a href='http://jekyllrb.com'>Jekyll</a> &#8216;supports&#8217; markdown&#8230; more on that.</li>
+
+<li>Maruku is the parser jekyll uses.</li>
+
+<li>Jekyll loads files it &#8216;watches&#8217; and passes to Maruku for processing</li>
+
+<li>If Maruku has errors it stops and reports them. It doesn&#8217;t continue until a human or alien intelligence has fixed them.</li>
+</ol>
+
+<p>Here&#8217;s the kicker, Jekyll seems to forget to reload the data from disk before running Maruku. At least sometimes. <a href='http://pastebin.com/4ktDhrbh'>See for yourself</a>. Try:</p>
+
+<ol>
+<li>create a post that works</li>
+
+<li>now break it. many ways to do that, such as &#8217;&#60;li&#62;&#8217; to it without closing it</li>
+
+<li>maruku will spit an error</li>
+
+<li>now fix it, e.g. remove it, or close tag</li>
+
+<li>same maruku error. i.e. it doesn&#8217;t recognize your existance</li>
+
+<li>laugh out loud, at least until you tire. then restart jekyll and all should be well.</li>
+</ol>
+
+<p>And to add to my list of reasons why Markdown is odd? <a href='http://daringfireball.net/projects/markdown/syntax#list'>Checkout how they do ordered lists.</a></p>
+
+<p>Oh and while I&#8217;m on the topic. <a href='http://benhollis.net/blog/2013/10/20/maruku-is-obsolete/'>Maruku is obsolete</a>. But still, seems more like a jekyll caching issue.</p>
+
+<p>ps. if you&#8217;re wondering why I didn&#8217;t post this as a message to the jekyll developers, open a ticket, etc? because I&#8217;m actually more focused on evaluating the tool quickly and getting something working is more important. In other words thank you for reading this, a meta-post.</p>

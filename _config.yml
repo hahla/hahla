@@ -1,0 +1,6 @@
+---
+name: "this is my name"
+paginate: 10
+permalink: pretty
+pygments: true
+---
