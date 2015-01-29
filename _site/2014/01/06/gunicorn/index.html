@@ -1,0 +1,57 @@
+<h2 id='setup_git_workspace'>Setup git workspace</h2>
+
+<ol>
+<li>
+<p><a href='https://github.com/manoochehri/jkmm-initial-prototype.git'>git clone https://github.com/manoochehri/jkmm-initial-prototype.git</a></p>
+</li>
+
+<li>
+<p>cd jkmm-initial-prototype</p>
+</li>
+
+<li>
+<p><a href='http://danielkummer.github.io/git-flow-cheatsheet/'>git flow init</a></p>
+
+<h2 id='setup_python_and_app_server'>Setup python and app server</h2>
+</li>
+
+<li>
+<p><code>virtualenv venv</code> (venv is in .gitignore)</p>
+</li>
+
+<li>
+<p><code>pip install -r requirements.txt</code></p>
+</li>
+
+<li>
+<p>Get app server going: <code>gunicorn distillerizer:app</code>; <a href='http://localhost:8000/api/tables/list'>check it works</a></p>
+
+<h2 id='now_connect_to_nginx'>Now connect to nginx:</h2>
+</li>
+
+<li>
+<p><code>cp nginx.conf /usr/local/etc/nginx/</code></p>
+</li>
+
+<li>
+<p><code>nginx</code></p>
+
+<h2 id='try_it_out_endtoend'>try it out end-to-end</h2>
+</li>
+
+<li>
+<p><a href='http://localhost:8080'>static url</a></p>
+</li>
+
+<li>
+<p><a href='http://localhost:8080/api/tables/list'>rest proxy</a></p>
+</li>
+</ol>
+
+<p>TODO</p>
+
+<ul>
+<li>script all the above</li>
+
+<li>fix anything wrong with all the above ;)</li>
+</ul>

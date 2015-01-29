@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!-- build:css css/hahla.css -->
+    <link href="css/hahla.css" rel="stylesheet"/>
+    <link href="js/bootstrap.css" rel="stylesheet" >
+    <!-- endbuild -->
+
+    <!-- build:js js/hahla.js -->
+    <script src="js/threejs.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/angular.js"></script>
+    <script src="js/stats.js"></script>
+    <script src="js/hahla.js"></script>
+    <script src="js/lines.js"></script>
+    <script src="js/convo.js"></script>
+    <script src="js/zelda.js"></script>
+    <!-- endbuild -->
+
+  </head>
+  <body class="test" ng-app='hahla'>
+    <div ng-controller="HahlaController">
+
+      <div class="containerx">
+        <div class="clearfix">
+          <div id="q2" class="column half quad">
+            <lines style="width: 100%; height: 100%" run="hahla.animate"></lines>
+          </div>
+          <div id="q1" class="column half quad"><zelda></zelda>ospace in its own terms {{resp}}</div>
+        </div>
+        <div class="clearfix">
+          <div id="q4" class="column half quad"><convo></convo></div>
+          <div id="q3" class="column half quad">
+            from interpretation {{ testing }}
+            <div class="input-group">
+              <form class="form-inline" role="form">
+                    <select id="projectFilter"
+                            ng-model="hahla.selectedThing"
+                            ng-options="thing for thing in hahla.thinglist"
+                            name="selectedThing"
+                            class="form-control" >
+                        <option default value="">--------- All Night Long ----------</option>
+                    </select>
+                    <input type="checkbox" ng-model="hahla.animate"> anim: {{hahla.animate}}
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="//localhost:35729/livereload.js"></script>
+
+
+  </body>
+</html>

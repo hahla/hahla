@@ -4,7 +4,7 @@
   <title>ms</title>
   <link href="http://hahla.com/atom.xml" rel="self"/>
   <link href="http://hahla.com/"/>
-  <updated>2013-12-03T15:19:08-07:00</updated>
+  <updated>2014-10-20T18:34:14-07:00</updated>
   <id>http://hahla.com/</id>
   <author>
     <name>michael salmon</name>
@@ -12,9 +12,203 @@
   </author>
   
   <entry>
+    <title>Nose</title>
+    <link href="http://hahla.com"/>
+    <updated>2014-01-28T00:00:00-08:00</updated>
+    <id>http://hahla.com/2014/01/28/nose</id>
+    <content type="html">&lt;p&gt;&amp;#8220;As with py.test, nose tests need not be subclasses of unittest.TestCase. Any function or class that matches the configured testMatch regular expression ((?:^|&lt;span&gt;\b_\.-&lt;/span&gt;)&lt;span&gt;Tt&lt;/span&gt;est) by default – that is, has test or Test at a word boundary or following a - or _) and lives in a module that also matches that expression will be run as a test. For the sake of compatibility with legacy unittest test cases, nose will also load tests from unittest.TestCase subclasses just like unittest does. Like py.test, nose runs functional tests in the order in which they appear in the module file. TestCase-derived tests and other test classes are run in alphabetical order.&amp;#8221;&lt;/p&gt;
+
+&lt;p&gt;In human please. Nose will look through your code (more on how it &amp;#8216;looks&amp;#8217; later), and look for things like these function names work: test(), my_test(), im_a_Test_too(), these function names don&amp;#8217;t: foo(), canaTESTlooklikethis()&lt;/p&gt;
+
+&lt;p&gt;tests run in the order they appear in your module. &lt;strong&gt;module&lt;/strong&gt; def b_test(self): def a_test(self):&lt;/p&gt;
+
+&lt;p&gt;runs b_test, a_test&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;unless&lt;/em&gt; you make a class and extend TestCase, like class TestSuite(TestCase): def b_test(self): def a_test(self):&lt;/p&gt;
+
+&lt;p&gt;runs a_test, b_test&lt;/p&gt;
+
+&lt;p&gt;fixtures test packages &lt;strong&gt;init&lt;/strong&gt;.py setup methods - setup - setup_package - setUp - setUpPackage teardown methods - teardown - teardown_package - tearDown - tearDownPackage&lt;/p&gt;
+
+&lt;p&gt;test modules&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;it&amp;#8217;s name must mast the testMatch regexp.&lt;/li&gt;
+
+&lt;li&gt;In the module you can have (static?) setup &amp;amp; teardown methods just like a package.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Way setup/teardown is executed setup: Test Package -&amp;gt; Test Module -&amp;gt; Test class ? teardown: Test Package -&amp;gt; Test Module -&amp;gt; Test class ?&lt;/p&gt;
+
+&lt;p&gt;Any function in a test module that matches testMatch will be wrapped in a FunctionTestCase and run as a test.&lt;/p&gt;
+
+&lt;p&gt;testMatch? Are there different versions of this for modules and functions?&lt;/p&gt;
+
+&lt;p&gt;&amp;#8220;nose, by default, follows a few simple rules for test discovery.&lt;/p&gt;
+
+&lt;p&gt;If it looks like a test, it’s a test. Names of directories, modules, classes and functions are compared against the testMatch regular expression, and those that match are considered tests. Any class that is a unittest.TestCase subclass is also collected, so long as it is inside of a module that looks like a test. Directories that don’t look like tests and aren’t packages are not inspected. Packages are always inspected, but they are only collected if they look like tests. This means that you can include your tests inside of your packages (somepackage/tests) and nose will collect the tests without running package code inappropriately. When a project appears to have library and test code organized into separate directories, library directories are examined first. When nose imports a module, it adds that module’s directory to sys.path; when the module is inside of a package, like package.module, it will be loaded as package.module and the directory of package will be added to sys.path. If an object defines a &lt;strong&gt;test&lt;/strong&gt; attribute that does not evaluate to True, that object will not be collected, nor will any objects it contains.&amp;#8221;&lt;/p&gt;
+
+&lt;p&gt;Wow, some examples would be sweet. and a bigger web friendly font&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
+    <title>Angular</title>
+    <link href="http://hahla.com"/>
+    <updated>2014-01-15T00:00:00-08:00</updated>
+    <id>http://hahla.com/2014/01/15/angular</id>
+    <content type="html">&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;ahh the feeling of being boxed in.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;flask jsonify(&lt;span /&gt;) &amp;lt;- go fuck yourself. so you gotta jsonify({}) things&lt;/li&gt;
+
+&lt;li&gt;angular &amp;#60;something ng-repeat=&amp;#8221;thing in bag&amp;#8221;&amp;#62;, but angular filters only work on arrays, &lt;em&gt;and&lt;/em&gt; you can&amp;#8217;t inject $scope to a filter&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;modules and so forth. how the hell do you really work? there are about 100 different variations on initializing modules. angular.module(&amp;#8220;whatever&amp;#8221;, &lt;span /&gt;); angular.module(&amp;#8220;whatever&amp;#8221;, &lt;span&gt;&amp;#8216;thing&amp;#8217;, function(thing) {}&lt;/span&gt;);&lt;/p&gt;
+
+&lt;p&gt;var whatever = angular.module(&amp;#8220;whatever&amp;#8221;, &lt;span /&gt;); whatever.controller(&amp;#8220;conJob&amp;#8221;, &lt;span /&gt;); whatever.controller(&amp;#8220;conJob, &lt;span&gt;&amp;#8216;thing&amp;#8217;, function(thing) {}&lt;/span&gt;); here is where it gets interesting. should &amp;#8216;thing&amp;#8217; be imported by the parent module? or in the controller definition? good luck ya&amp;#8217;ll&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;routes, I had an href which was captured by a route, loaded a controller to project into a view/partial. The partial wasn&amp;#8217;t actually url-linked properly, sending the whole blasted thing into a slow chunking infinite loop. No error from angular, e.g. &amp;#8220;sorry couldn&amp;#8217;t find partial x, you numbnut&amp;#8221;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ahhh SyntaxError: unexpected token &amp;lt;. angular.js:2 oh wait, that&amp;#8217;s not my code. oh wait, they&amp;#8217;re evaling something, oh wait theres no way to trace or debug this. guess I should have tested everythin&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;testing is nice. i love software testing. it helps though when you have any rough idea how to architect your app to avoid wasting&lt;/p&gt;
+
+&lt;p&gt;build your app slowly with each test, and as you learn in doing so the chance you will rewrite early code is high, and hence your tests are likely in need of a change.&lt;/p&gt;
+
+&lt;p&gt;experiment and rough out some features with the framework, learn a few of the behaviors. get a good idea from best practices how to architect your app and what types of test conditions are most important to validate.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;ng-if and ng-class, if ng-if is initially false and using a function, it won&amp;#8217;t update and ng-class won&amp;#8217;t update it&amp;#8217;s value?? maybe.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;protractor is a piece of TRASH&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;| date &amp;#8216;shortTime&amp;#8217; &amp;lt;- if you don&amp;#8217;t use quotes then it acts like shortDate. gotcha!&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;oh i love this&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;x=1000 0 &amp;lt; x &amp;lt; 10000&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;True&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;0 &amp;lt; x &amp;lt; 99&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;False&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;0 &amp;lt; x &amp;lt; 99&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;False&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;but javascript doesn&amp;#8217;t work that way. you need to write 0 &amp;lt; x &amp;amp;&amp;amp; x &amp;lt; 10000 etc&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  
+  <entry>
+    <title>install instructions</title>
+    <link href="http://hahla.com"/>
+    <updated>2014-01-06T00:00:00-08:00</updated>
+    <id>http://hahla.com/2014/01/06/gunicorn</id>
+    <content type="html">&lt;h2 id=&#39;setup_git_workspace&#39;&gt;Setup git workspace&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#39;https://github.com/manoochehri/jkmm-initial-prototype.git&#39;&gt;git clone https://github.com/manoochehri/jkmm-initial-prototype.git&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;cd jkmm-initial-prototype&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#39;http://danielkummer.github.io/git-flow-cheatsheet/&#39;&gt;git flow init&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#39;setup_python_and_app_server&#39;&gt;Setup python and app server&lt;/h2&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;virtualenv venv&lt;/code&gt; (venv is in .gitignore)&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;pip install -r requirements.txt&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Get app server going: &lt;code&gt;gunicorn distillerizer:app&lt;/code&gt;; &lt;a href=&#39;http://localhost:8000/api/tables/list&#39;&gt;check it works&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#39;now_connect_to_nginx&#39;&gt;Now connect to nginx:&lt;/h2&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;cp nginx.conf /usr/local/etc/nginx/&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;nginx&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&#39;try_it_out_endtoend&#39;&gt;try it out end-to-end&lt;/h2&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#39;http://localhost:8080&#39;&gt;static url&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#39;http://localhost:8080/api/tables/list&#39;&gt;rest proxy&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;TODO&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;script all the above&lt;/li&gt;
+
+&lt;li&gt;fix anything wrong with all the above ;)&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  
+  <entry>
     <title>sideboob and underbutt</title>
     <link href="http://hahla.com"/>
-    <updated>2013-12-02T00:00:00-07:00</updated>
+    <updated>2013-12-02T00:00:00-08:00</updated>
     <id>http://hahla.com/2013/12/02/uu</id>
     <content type="html">&lt;p&gt;Hanging out in a snow storm with your girlfriend can lead to a few interesting learning lessons via the urban outfitters message board on how some girls fit into clothes. Sure I knew about side-boob, but now I am aware of something called underbutt (or as I like to call it - the undertow).&lt;/p&gt;
 
@@ -24,7 +218,7 @@
   <entry>
     <title>Python</title>
     <link href="http://hahla.com"/>
-    <updated>2013-12-01T00:00:00-07:00</updated>
+    <updated>2013-12-01T00:00:00-08:00</updated>
     <id>http://hahla.com/2013/12/01/python</id>
     <content type="html">&lt;h1 id=&#39;im_going_to_keep_a_list_of_python_references_i_find_important&#39;&gt;I&amp;#8217;m going to keep a list of python references I find &lt;strong&gt;important&lt;/strong&gt;&lt;/h1&gt;
 
@@ -52,7 +246,7 @@
   <entry>
     <title>tbd</title>
     <link href="http://hahla.com"/>
-    <updated>2013-12-01T00:00:00-07:00</updated>
+    <updated>2013-12-01T00:00:00-08:00</updated>
     <id>http://hahla.com/2013/12/01/notes</id>
     <content type="html">&lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;perl&#39;&gt;&lt;span class=&#39;k&#39;&gt;my&lt;/span&gt; &lt;span class=&#39;nv&#39;&gt;$whatever&lt;/span&gt; &lt;span class=&#39;o&#39;&gt;=&lt;/span&gt; &lt;span class=&#39;s&#39;&gt;&amp;#39;I&amp;#39;&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;m&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;just&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;testing&lt;/span&gt;&lt;span class=&#39;err&#39;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -79,7 +273,7 @@
   <entry>
     <title>List</title>
     <link href="http://hahla.com"/>
-    <updated>2013-12-01T00:00:00-07:00</updated>
+    <updated>2013-12-01T00:00:00-08:00</updated>
     <id>http://hahla.com/2013/12/01/list</id>
     <content type="html">&lt;p&gt;tine&amp;#8230; pink fuji instant cam, elephant zine subscription, sharon&amp;#8230; dj stuff aaron.. a fancy tool dad&amp;#8230; some gps thing or badass hiker thing&lt;/p&gt;</content>
   </entry>
@@ -87,7 +281,7 @@
   <entry>
     <title>Congo</title>
     <link href="http://hahla.com"/>
-    <updated>2013-12-01T00:00:00-07:00</updated>
+    <updated>2013-12-01T00:00:00-08:00</updated>
     <id>http://hahla.com/2013/12/01/congo</id>
     <content type="html">&lt;p&gt;okapi ruwenzoris khinsasa duiker liana&lt;/p&gt;</content>
   </entry>
@@ -95,7 +289,7 @@
   <entry>
     <title>niceness</title>
     <link href="http://hahla.com"/>
-    <updated>2013-11-29T00:00:00-07:00</updated>
+    <updated>2013-11-29T00:00:00-08:00</updated>
     <id>http://hahla.com/2013/11/29/niceness</id>
     <content type="html">&lt;p&gt;I&amp;#8217;m here in Park City with my girlfriend &lt;a href=&#39;http://tine.ms.mixture.io&#39;&gt;Christine&lt;/a&gt; visiting my dad. Right now we&amp;#8217;re watching some Penn State football (his alma mater). Hackenberg just made a 59-yard touchdown pass, he&amp;#8217;s 20-27 in passing today and leading a big upset over Wisconsin - in other words dad&amp;#8217;s excited.&lt;/p&gt;
 
@@ -127,7 +321,7 @@
   <entry>
     <title>more awaits for those who async</title>
     <link href="http://hahla.com"/>
-    <updated>2013-11-28T00:00:00-07:00</updated>
+    <updated>2013-11-28T00:00:00-08:00</updated>
     <id>http://hahla.com/2013/11/28/await</id>
     <content type="html">&lt;p&gt;I begin to find it interesting how call-stacks and application state is now considered magic with await/async/generators and &lt;a href=&#39;http://bjouhier.wordpress.com/2013/06/01/bringing-asyncawait-to-life-in-javascript/&#39;&gt;all that&lt;/a&gt;. Has everyone forgotten about a state machine with an event loop?&lt;/p&gt;
 
@@ -143,7 +337,7 @@
   <entry>
     <title>jekyll markdown hijinx</title>
     <link href="http://hahla.com"/>
-    <updated>2013-11-27T00:00:00-07:00</updated>
+    <updated>2013-11-27T00:00:00-08:00</updated>
     <id>http://hahla.com/2013/11/27/jekyllbug</id>
     <content type="html">&lt;p&gt;Okay this was interesting.&lt;/p&gt;
 
@@ -185,7 +379,7 @@
   <entry>
     <title>goodies in the key of js</title>
     <link href="http://hahla.com"/>
-    <updated>2013-11-27T00:00:00-07:00</updated>
+    <updated>2013-11-27T00:00:00-08:00</updated>
     <id>http://hahla.com/2013/11/27/goodies</id>
     <content type="html">&lt;p&gt;recently i started using mixture to build a &lt;a href=&#39;http://tine.ms.mixture.io&#39;&gt;site for my gf&lt;/a&gt;. it&amp;#8217;s pretty simple and cute.&lt;/p&gt;
 

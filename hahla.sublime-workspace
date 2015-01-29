@@ -1,0 +1,1771 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"temp",
+				"templateUrl"
+			],
+			[
+				"profilePlus",
+				"profilePlusFirstNameInfo"
+			],
+			[
+				"ProfilePl",
+				"profilePlusFirstNameInfo"
+			],
+			[
+				"finan",
+				"financialsRoll"
+			],
+			[
+				"Finan",
+				"FinancialsRollID"
+			],
+			[
+				"EmailRoll",
+				"EmailRollID"
+			],
+			[
+				"sessionsI",
+				"SessionsIntRollID"
+			],
+			[
+				"Session",
+				"SessionsRollID"
+			],
+			[
+				"Even",
+				"EventsRollID"
+			],
+			[
+				"joinTab",
+				"joinTableSchema"
+			],
+			[
+				"baseB",
+				"baseTableSchema"
+			],
+			[
+				"fin",
+				"financialsRollup"
+			],
+			[
+				"sche",
+				"schema_obj"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"add",
+				"addCallback"
+			],
+			[
+				"curr",
+				"current_user"
+			],
+			[
+				"ac",
+				"activity-spacing"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"tmp",
+				"tmpdir"
+			],
+			[
+				"aws_",
+				"aws_secret_access_key"
+			],
+			[
+				"inp",
+				"input_path"
+			],
+			[
+				"exp",
+				"expected_left_table_input"
+			],
+			[
+				"file",
+				"filepath"
+			],
+			[
+				"TABL",
+				"TABLE_EXCEPTION"
+			],
+			[
+				"mapred",
+				"mapreduce_base"
+			],
+			[
+				"ded",
+				"dedupe_cols"
+			],
+			[
+				"TABLE_C",
+				"TABLE_C_LOCK"
+			],
+			[
+				"except",
+				"except_str"
+			],
+			[
+				"S3_",
+				"S3_NEW_FILE"
+			],
+			[
+				"TABLE_A",
+				"TABLE_A_LOCK"
+			],
+			[
+				"couchbase",
+				"Couchbase"
+			],
+			[
+				"dedu",
+				"dedupe_req"
+			],
+			[
+				"exis",
+				"existing_data"
+			],
+			[
+				"in",
+				"info"
+			],
+			[
+				"displ",
+				"display_name"
+			],
+			[
+				"join",
+				"joinType"
+			],
+			[
+				"output",
+				"output_path"
+			],
+			[
+				"get",
+				"getsamples"
+			],
+			[
+				"transformat",
+				"transformation_list"
+			],
+			[
+				"trans",
+				"transformation_list"
+			],
+			[
+				"exi",
+				"existing_data"
+			],
+			[
+				"queu",
+				"queue_mgr"
+			],
+			[
+				"pipe",
+				"pipeline_id"
+			],
+			[
+				"email",
+				"email_report"
+			],
+			[
+				"Map",
+				"MapreduceBase"
+			],
+			[
+				"qu",
+				"queue_mgr"
+			],
+			[
+				"bui",
+				"build_msg_body"
+			],
+			[
+				"UTC",
+				"UTC"
+			],
+			[
+				"STATE",
+				"state"
+			],
+			[
+				"INPUT",
+				"INPUT_FILE"
+			],
+			[
+				"still",
+				"still_msg"
+			],
+			[
+				"map",
+				"mapreduce"
+			],
+			[
+				"Mapr",
+				"MapreduceBase"
+			],
+			[
+				"outlier",
+				"outlier_mr"
+			],
+			[
+				"app_",
+				"app_queue_name"
+			],
+			[
+				"test",
+				"testserver"
+			],
+			[
+				"Control",
+				"controllers"
+			],
+			[
+				"jh",
+				"jshint"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"trac",
+				"tracks_default"
+			],
+			[
+				"un",
+				"unscheduled"
+			],
+			[
+				"sess",
+				"session"
+			],
+			[
+				"ses",
+				"sessions"
+			],
+			[
+				"tra",
+				"track_id"
+			],
+			[
+				"fe",
+				"feints"
+			],
+			[
+				"section",
+				"section"
+			],
+			[
+				"detac",
+				"detached"
+			],
+			[
+				"min-",
+				"min-width"
+			],
+			[
+				"lo",
+				"loading"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"inlin",
+				"inline-block"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "connect, auto create a user randomly, auto create a div/glyphicon\ngame map is hexagons or more fluid like zelda?\ni like hexagons because then everone can synchronize movements to a world clock easily.\nyou can click a space in view and try to get there\nyou can take a risk by trying to move farther without control, enable auto-pilot\nyour character moves those turns without your help\nif someone else's path collides with yours during those turns, then you lose\n\n\nlike snake but slomo\n\n---or---\n\nbike across the whole country, albeit in real time\nuse google street view images where your biker would be\n- set course\n- drive\n- the more you check in on them, the faster they go, or other ways to power them up\n\n",
+			"settings":
+			{
+				"buffer_size": 708,
+				"line_ending": "Unix",
+				"name": "connect, auto create a user randomly, auto create"
+			}
+		},
+		{
+			"file": "client/index.html",
+			"settings":
+			{
+				"buffer_size": 1995,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/partials/zelda.html",
+			"settings":
+			{
+				"buffer_size": 86,
+				"line_ending": "Unix",
+				"name": "<div>"
+			}
+		},
+		{
+			"file": "client/js/zelda.js",
+			"settings":
+			{
+				"buffer_size": 583,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "hahla.directive('waves', function() {\n    return {\n        controller: 'waveController',\n        restrict: 'E',\n        replace: true,\n        templateUrl: 'partials/waves.html',\n        scope: {\n        }\n    };\n});\n\nhahla.controller('waveController', function($scope, $timeout){\n    $scope.zelda = $scope.zelda || {};\n    $scope.waves = {\n        set: \n    }\n\n});",
+			"settings":
+			{
+				"buffer_size": 365,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<div>\n    <div ng-repeat=\"color for waveMachine.set\">\n        <div ng-class=\"{\"></div>\n    </div>\n </div>",
+			"file": "client/partials/waves.html",
+			"file_size": 113,
+			"file_write_time": 130661010390000000,
+			"settings":
+			{
+				"buffer_size": 105,
+				"line_ending": "Unix",
+				"name": "<div>"
+			}
+		},
+		{
+			"file": "client/js/hahla.js",
+			"settings":
+			{
+				"buffer_size": 435,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "server.js",
+			"settings":
+			{
+				"buffer_size": 837,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/css/hahla.less",
+			"settings":
+			{
+				"buffer_size": 2305,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/User/openhtml.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"json",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"spaces",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				":",
+				":w - Save"
+			],
+			[
+				"pep8",
+				"User: Python PEP8 Autoformat"
+			],
+			[
+				"jsh",
+				"JSHint"
+			],
+			[
+				"jshi",
+				"JSHint"
+			],
+			[
+				"js",
+				"JSHint"
+			],
+			[
+				"jshint",
+				"JSHint"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"vint",
+				"Set Syntax: Vintageous Command Line"
+			],
+			[
+				"vintage",
+				"Set Syntax: Vintageous Command Line"
+			],
+			[
+				"packagecon",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"syntax: css",
+				"Set Syntax: CSS"
+			],
+			[
+				"syntax: liq",
+				"Set Syntax: HTML Liquid"
+			],
+			[
+				"package control",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 346.0,
+		"history":
+		[
+			"jshint",
+			"class B(sublime_plugin.WindowCommand):\\  def run(self):\\    pass",
+			"class B(sublime_plugin.WindowCommand):",
+			"import sublime_plugin",
+			"sublime.packages_path()",
+			"grunt",
+			"sublime.packages_path()",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Volumes/opt/src/hahla",
+		"/Volumes/opt/src/hahla/client",
+		"/Volumes/opt/src/hahla/client/css",
+		"/Volumes/opt/src/hahla/client/js"
+	],
+	"file_history":
+	[
+		"/Volumes/opt/src/hahla/node_modules/protractor/node_modules/selenium-webdriver/docs/namespace_goog.html",
+		"/Volumes/opt/src/hahla/nginx.conf",
+		"/Volumes/opt/src/hahla/bower_components/jquery/src/effects.js",
+		"/Volumes/opt/src/hahla/node_modules/protractor/node_modules/selenium-webdriver/docs/enum_goog_net_XmlHttp_OptionType.html",
+		"/Volumes/opt/src/hahla/node_modules/express/lib/express.js",
+		"/Volumes/opt/src/hahla/client/css/hahla.less",
+		"/Volumes/opt/src/hahla/_config.yml",
+		"/Volumes/opt/src/hahla/node_modules/grunt-contrib-clean/docs/clean-options.md",
+		"/Volumes/opt/src/hahla/client/js/convo.js",
+		"/Volumes/opt/src/hahla/node_modules/phantomjs/node_modules/adm-zip/zipEntry.js",
+		"/Volumes/opt/src/hahla/client/zelda.js",
+		"/Volumes/opt/src/hahla/client/js/hahla.js",
+		"/Volumes/opt/src/hahla/client/partials/convo.html",
+		"/Volumes/opt/src/hahla/map.json",
+		"/Volumes/opt/src/hahla/server.js",
+		"/Volumes/opt/src/hahla/client/js/lines.js",
+		"/Volumes/opt/src/hahla/client/partials/lines.html",
+		"/Volumes/opt/src/hahla/client/css/hahla.css",
+		"/Volumes/opt/src/hahla/_site/hahla.sublime-project",
+		"/Volumes/opt/src/hahla/node_modules/protractor/node_modules/selenium-webdriver/docs/class_goog_async_run_WorkItem_.html",
+		"/Volumes/opt/src/hahla/bower_components/angular-ui-router/src/viewScroll.js",
+		"/Volumes/opt/src/hahla/atom.xml",
+		"/Volumes/opt/src/hahla/node_modules/protractor/node_modules/minijasminenode/spec/syntax_error.js",
+		"/Volumes/opt/src/hahla/LICENSE",
+		"/Volumes/opt/src/hahla/.bin/js-yaml",
+		"/Volumes/opt/src/hahla/node_modules/grunt-svgmin/node_modules/svgo/lib/svgo/jsAPI.js",
+		"/Volumes/opt/src/hahla/bower_components/angular/bower.json",
+		"/Volumes/opt/src/hahla/node_modules/.bin/bower",
+		"/Volumes/opt/src/hahla/Gruntfile.js",
+		"/Volumes/opt/src/hahla/package.json",
+		"/Volumes/opt/src/hahla/.bin/bower",
+		"/Volumes/opt/src/hahla/node_modules/grunt-svgmin/node_modules/svgo/node_modules/sax/test/buffer-overrun.js",
+		"/Users/ms/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Volumes/opt/src/hahla/client/js/stats.js",
+		"/Volumes/opt/src/hahla/dist.bak/js/bootstrap.css",
+		"/Volumes/opt/src/hahla/hahla.sublime-project",
+		"/Volumes/opt/src/hahla/client/css/cf.less",
+		"/Volumes/opt/src/hahla/node_modules/grunt-contrib-cssmin/node_modules/maxmin/node_modules/chalk/node_modules/.bin/has-ansi",
+		"/Volumes/opt/src/hahla/node_modules/bower/node_modules/mout/lang/isNull.js",
+		"/Volumes/opt/src/hahla/node_modules/bower/lib/core/resolvers/GitResolver.js",
+		"/Volumes/opt/src/hahla/_site/index.html",
+		"/Volumes/opt/src/hahla/client/index.html",
+		"/Volumes/opt/src/hahla/.git/index",
+		"/Volumes/opt/src/hahla/oldindex.html",
+		"/Volumes/opt/src/dio/distillerizer/server/table.py",
+		"/Volumes/opt/src/dio/distillerizer/tests/test_data/joins/table_a.csv",
+		"/Volumes/opt/src/dio/distillerizer/util/pipeline_state.py",
+		"/Volumes/opt/src/dio/distillerizer/distillerizer.egg-info/PKG-INFO",
+		"/Volumes/opt/src/dio/distillerizer/util/process.py",
+		"/Volumes/opt/src/dio/distillerizer/README.md",
+		"/Volumes/opt/src/dio/distillerizer/still/mapreduce/mapreduce_base.py",
+		"/Volumes/opt/src/dio/distillerizer/still/mapreduce/mapreduce_rowcount.py",
+		"/Volumes/opt/src/dio/distillerizer/still/mapreduce/mapreduce_analyze.py",
+		"/Volumes/opt/src/dio/distillerizer/MANIFEST.in",
+		"/Volumes/opt/src/dio/distillerizer/conf/ansiblehosts",
+		"/Volumes/opt/src/dio/distillerizer/tests/e2e/run_integration_tests.py",
+		"/Volumes/opt/src/dio/distillerizer/setup.py",
+		"/Volumes/opt/src/dio/distillerizer/sequencing.ipynb",
+		"/Volumes/opt/src/dio/distillerizer/scripts/automation/s3upload.py",
+		"/Volumes/opt/src/dio/distillerizer/still/runner/view_run.py",
+		"/Volumes/opt/src/dio/distillerizer/still/mapreduce/view_runner.py",
+		"/Volumes/opt/src/dio/distillerizer/client/js/controllers/modals/render-view.js",
+		"/Volumes/opt/src/dio/distillerizer/still/hdfsutils.py",
+		"/Volumes/opt/src/dio/distillerizer/still/runner/clean_run.py",
+		"/Volumes/opt/src/dio/distillerizer/still/runner/analyze_run.py",
+		"/Volumes/opt/src/dio/distillerizer/scripts/clean.sh",
+		"/Volumes/opt/src/dio/distillerizer/scripts/clearhdfs.py",
+		"/Volumes/opt/src/dio/distillerizer/scripts/command_line_examples.sh",
+		"/Volumes/opt/src/dio/distillerizer/scripts/configure.sh",
+		"/Volumes/opt/src/dio/distillerizer/node_modules/bower/node_modules/request/node_modules/form-data/node_modules/combined-stream/lib/combined_stream.js",
+		"/Volumes/opt/src/dio/distillerizer/node_modules/grunt-svgmin/node_modules/svgo/plugins/_collections.js",
+		"/Volumes/opt/src/dio/distillerizer/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/faye-websocket/examples/autobahn_client.js",
+		"/Volumes/opt/src/dio/distillerizer/util/transformations.py",
+		"/Volumes/opt/src/dio/distillerizer/node_modules/grunt-svgmin/node_modules/svgo/plugins/_transforms.js",
+		"/Volumes/opt/src/dio/distillerizer/still/runner/rowcount_run.py",
+		"/Volumes/opt/src/dio/distillerizer/tests/run_mapreduce_test.py",
+		"/Volumes/opt/src/dio/distillerizer/scripts/automation/gamesys/workflow/EventSession-join.json",
+		"/Volumes/opt/src/dio/distillerizer/scripts/automation/run.py",
+		"/Volumes/opt/src/dio/distillerizer/scripts/automation/EventsRoll-tx.json",
+		"/Volumes/opt/src/dio/distillerizer/client/js/services/events.js",
+		"/Volumes/opt/src/dio/distillerizer/client/bower_components/jquery/src/event.js",
+		"/Volumes/opt/src/dio/distillerizer/.git/info/exclude",
+		"/Volumes/opt/src/dio/distillerizer/still/run_mapreduce.py",
+		"/Volumes/opt/src/dio/distillerizer/autolog",
+		"/Volumes/opt/src/dio/distillerizer/node_modules/karma/node_modules/useragent/static/user_agent.after.yaml",
+		"/Volumes/opt/src/dio/distillerizer/still/mapreduce/mapreduce_profile.py",
+		"/Volumes/opt/src/dio/distillerizer/util/tabletools.py",
+		"/Users/ms/Desktop/songs/hey hey are you",
+		"/Volumes/opt/src/dio/distillerizer/scripts/automation/gamesys.py",
+		"/Volumes/opt/src/dio/distillerizer/venv/lib/python2.7/site-packages/mrjob/job.py",
+		"/Volumes/opt/src/dio/distillerizer/scripts/automation/client.py",
+		"/Volumes/opt/src/dio/distillerizer/still/server.py",
+		"/Volumes/opt/src/dio/distillerizer/still/mapreduce/mapreduce_dirty.py",
+		"/Volumes/opt/src/dio/distillerizer/still/mapreduce/mapreduce_view.py",
+		"/Volumes/opt/src/dio/distillerizer/still/runner/transform_run.py",
+		"/Volumes/opt/src/dio/distillerizer/node_modules/bower/node_modules/handlebars/node_modules/optimist/node_modules/wordwrap/.npmignore",
+		"/Volumes/opt/src/dio/distillerizer/node_modules/bower/node_modules/handlebars/node_modules/optimist/example/usage-options.js",
+		"/Volumes/opt/src/dio/distillerizer/.git/refs/heads/feature/hadoopNodeInstallationScripts",
+		"/Volumes/opt/src/dio/distillerizer/node_modules/grunt-contrib-cssmin/node_modules/maxmin/node_modules/chalk/node_modules/.bin/has-ansi",
+		"/Volumes/opt/src/dio/distillerizer/test/e2e/controllers/table-details-po.js",
+		"/Volumes/opt/src/dio/distillerizer/test/e2e/tabledetails-suite.js",
+		"/Volumes/opt/src/dio/distillerizer/test/e2e/monitoring-suite.js",
+		"/Volumes/opt/src/dio/distillerizer/test/e2e/login-suite.js",
+		"/Volumes/opt/src/dio/distillerizer/node_modules/grunt-mocha/node_modules/mocha/lib/suite.js",
+		"/Volumes/opt/src/dio/distillerizer/node_modules/mocha/lib/suite.js",
+		"/Volumes/opt/src/dio/distillerizer/tests/test_data/transforms/4_split_underscore_in.csv",
+		"/Volumes/opt/src/dio/distillerizer/tests/test_data/input_data/schema_update_grel.json",
+		"/Volumes/opt/src/dio/distillerizer/client/partials/directives/table-update.html",
+		"/Volumes/opt/src/dio/distillerizer/client/js/controllers/table-update.js",
+		"/Volumes/opt/src/dio/distillerizer/node_modules/grunt-contrib-less/node_modules/less/test/less/errors/bad-variable-declaration1.less",
+		"/Volumes/opt/src/dio/distillerizer/node_modules/grunt-contrib-less/node_modules/less/test/less/errors/bad-variable-declaration1.txt",
+		"/Volumes/opt/src/dio/distillerizer/client/js/controllers/table-details.js",
+		"/Volumes/opt/src/dio/distillerizer/scripts/automation/gamesys/workflow/FirstNameRoll.json",
+		"/Volumes/opt/src/dio/distillerizer/.git/objects/0a/5232e865c7355f391d8ca27672e33793089273",
+		"/Volumes/opt/src/dio/distillerizer/scripts/automation/gamesys/workflow/EventsRoll.json",
+		"/Volumes/opt/src/dio/distillerizer/scripts/automation/gamesys/workflow/SessionsRoll.json",
+		"/Volumes/opt/src/dio/distillerizer/scripts/automation/gamesys/workflow/EventsRoll-tx.json",
+		"/Volumes/opt/src/dio/distillerizer/scripts/automation/gamesys/workflow/Profile-join.json",
+		"/Volumes/opt/src/dio/distillerizer/scripts/automation/gamesys/workflow/ProfilePlusFirstNameInfo-join.json",
+		"/Volumes/opt/src/dio/distillerizer/scripts/automation/gamesys/workflow/ProfilePlusEmail-join.json",
+		"/Volumes/opt/src/dio/distillerizer/scripts/automation/gamesys/workflow/SessionsRoll-tx.json",
+		"/Volumes/opt/src/dio/distillerizer/scripts/automation/gamesys/workflow/Profile-tx.json",
+		"/Volumes/opt/src/dio/distillerizer/scripts/automation/gamesys/workflow/BasicProfile-join.json",
+		"/Volumes/opt/src/dio/distillerizer/scripts/cleardb.py",
+		"/Volumes/opt/src/dio/distillerizer/scripts/automation/gamesys/workflow/SessionsIntRoll.json",
+		"/Volumes/opt/src/dio/distillerizer/scripts/automation/gamesys/workflow/FirstNameRollBase-tx.json",
+		"/Volumes/opt/src/dio/distillerizer/still/runner/move_existing_run.py",
+		"/Volumes/opt/src/dio/distillerizer/node_modules/karma/lib/reporters/base_color.js"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"*.js",
+			"*",
+			"*.py",
+			"*",
+			"*.py",
+			"test.schema",
+			"*.py",
+			"gamesys.py",
+			"*.py",
+			"New nodes",
+			"stich.json",
+			"*",
+			"*.html",
+			"*.js",
+			"*.py",
+			"*.sh",
+			"*.py",
+			"sequence.py",
+			"*.py",
+			"monitoring.html",
+			"*.py",
+			"setup.py",
+			"*.py",
+			"*",
+			"*.bash",
+			"*.py",
+			"*.bash",
+			"*.py",
+			"scripts/",
+			"*.py",
+			"*.sh",
+			"*.bash",
+			"*.sh",
+			"*.bash",
+			"*.py",
+			"init.bash",
+			"sfly-new.cron.sh",
+			"*.py",
+			"*",
+			"*.js",
+			"*.py",
+			"*",
+			"*.css",
+			"index.html",
+			"client/*.html",
+			"client/js/*.js",
+			"client/partials/*.js",
+			"client/partials/*.html",
+			"*.html",
+			"*.js",
+			"*.py",
+			"*.js",
+			"*.py",
+			"*.js",
+			"*.py",
+			"mapreduce_*.py",
+			"*.py",
+			"*.sh",
+			"*.py",
+			"*",
+			"*.py",
+			"",
+			"*.py",
+			"buildcluster.py",
+			"*.py",
+			"client/*.js",
+			"*.js",
+			"*.py",
+			"join_test.py",
+			"",
+			"*.py",
+			"tmp",
+			"",
+			"[",
+			"",
+			"<all files>",
+			"",
+			"<Grunfile.js>",
+			"Grunfile.js",
+			"distillerizer.py,<open files>",
+			"distillerizer.py",
+			"",
+			"offers.json",
+			"",
+			"mine.js",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"anim",
+			"red",
+			"SW",
+			"red",
+			"green",
+			"animat",
+			"lines",
+			"camera.as",
+			"setS",
+			"ng-mod",
+			"animate",
+			"blac",
+			"Blac",
+			"console.",
+			"init",
+			"    init();\n",
+			"thinglist",
+			"container",
+			".append",
+			"append",
+			"innerW",
+			"catch",
+			"anim",
+			"contain",
+			"getEl",
+			"container",
+			"linescontainer",
+			"linesc",
+			"watch",
+			"watch'",
+			"watch-dev",
+			"bower",
+			"otstrap.css.map",
+			"client",
+			"target",
+			"serve",
+			"watch-d",
+			"watch:de",
+			"hahla",
+			"watch",
+			"ng-",
+			"client",
+			"less",
+			"tmp",
+			"less",
+			"usem",
+			"userm",
+			"concat",
+			"copy",
+			"copy.d",
+			"less",
+			"stats",
+			"container",
+			"info",
+			"container.inn",
+			"append",
+			"linescon",
+			"Stats",
+			"css",
+			"q1",
+			"watch",
+			"rad",
+			"colo",
+			"gree",
+			"connect",
+			"watch",
+			"testser",
+			"projec",
+			"less",
+			"less:d",
+			"concat",
+			"testser",
+			"existing_data",
+			"_transfer_existing_f",
+			"existing_",
+			"existing_data",
+			"move",
+			"_trans",
+			"self.table_",
+			"pigg",
+			"view_runner",
+			"piggy",
+			"STATE_OK",
+			"postpro",
+			"save_r",
+			"existing_data",
+			"_transfer_ex",
+			"transfer",
+			"move_",
+			"input_",
+			"move",
+			"mr_args",
+			"input_",
+			"existing_data",
+			"EXIST",
+			"existing_da",
+			"transforms/ru",
+			"def get_m",
+			"get_mapre",
+			"def get_m",
+			"def get_mapreduce_",
+			"mr_args.e",
+			"--output_dir",
+			"facto",
+			"class Map",
+			"mr_args",
+			"runner",
+			"update_fac",
+			"succes",
+			"call",
+			"copy_file_from_l",
+			"-join",
+			"blah",
+			"created ta",
+			"!",
+			"\"name\":",
+			"FirstNameR",
+			"buildf",
+			"levelR",
+			"addjoin",
+			"addvi",
+			"addv",
+			"mr_input_",
+			"mr_arg",
+			"process_",
+			"move_existing",
+			"move",
+			"copy"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"STRING",
+			"",
+			"STRING",
+			" = ",
+			"",
+			"s.com ansible_ssh_user=ubuntu",
+			"Exp",
+			"ROLL",
+			"FIN",
+			"fa-med",
+			"",
+			"fa-2x my-fa",
+			"2x",
+			"'",
+			"FULL_URL",
+			"REPEAT",
+			"REPEATS",
+			"ITER",
+			"client/bower_components/",
+			"\"",
+			"'",
+			"from still.mapreduce.mapreduce_base import",
+			"'",
+			"\"",
+			"App.Controllers",
+			"yo",
+			"@app.route",
+			"offerApp",
+			"message",
+			"starting",
+			"OfferApp",
+			"offer",
+			"newOffer",
+			"time_now",
+			"model",
+			"1colMaxWidth",
+			"'",
+			"/public/img/",
+			"mainnav"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 7,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 708,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								708,
+								708
+							]
+						],
+						"settings":
+						{
+							"auto_name": "connect, auto create a user randomly, auto create",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "client/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1995,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								611,
+								611
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "client/partials/zelda.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 86,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7,
+								7
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<div>",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "client/js/zelda.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 583,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								583
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 365,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								354,
+								354
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "client/partials/waves.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 105,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								105,
+								105
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<div>",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "client/js/hahla.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 435,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								209,
+								249
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "server.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 837,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								634,
+								540
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "client/css/hahla.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2305,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								620,
+								620
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 105.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 37.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "hahla.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"server",
+				"server.js"
+			],
+			[
+				"serv",
+				"server.js"
+			],
+			[
+				"hahla.l",
+				"client/css/hahla.less"
+			],
+			[
+				"hahla.le",
+				"client/css/hahla.less"
+			],
+			[
+				"hahla",
+				"client/js/hahla.js"
+			],
+			[
+				"zelda.j",
+				"client/js/zelda.js"
+			],
+			[
+				"hahla.j",
+				"client/js/hahla.js"
+			],
+			[
+				"hah",
+				"client/css/hahla.less"
+			],
+			[
+				"lines.h",
+				"client/partials/lines.html"
+			],
+			[
+				"hahla.less",
+				"client/css/hahla.less"
+			],
+			[
+				"bower",
+				"bower_components/angular/bower.json"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"bower.js",
+				"bower_components/angular/bower.json"
+			],
+			[
+				"hahla.css",
+				"client/css/hahla.css"
+			],
+			[
+				"gruntf",
+				"Gruntfile.js"
+			],
+			[
+				"grunt",
+				"Gruntfile.js"
+			],
+			[
+				"index",
+				"client/index.html"
+			],
+			[
+				"table.py",
+				"server/table.py"
+			],
+			[
+				"pipe",
+				"util/pipeline_state.py"
+			],
+			[
+				"run_map",
+				"still/run_mapreduce.py"
+			],
+			[
+				"analyze_r",
+				"still/runner/analyze_run.py"
+			],
+			[
+				"trans",
+				"still/runner/transform_run.py"
+			],
+			[
+				"move",
+				"still/runner/move_existing_run.py"
+			],
+			[
+				"setup.p",
+				"setup.py"
+			],
+			[
+				"view_ru",
+				"still/runner/view_run.py"
+			],
+			[
+				"view_runn",
+				"still/mapreduce/view_runner.py"
+			],
+			[
+				"view_run",
+				"still/runner/view_run.py"
+			],
+			[
+				"clean_ru",
+				"still/runner/clean_run.py"
+			],
+			[
+				"transform_r",
+				"still/runner/transform_run.py"
+			],
+			[
+				"hdfsut",
+				"still/hdfsutils.py"
+			],
+			[
+				"run_m",
+				"still/run_mapreduce.py"
+			],
+			[
+				"run_ma",
+				"still/run_mapreduce.py"
+			],
+			[
+				"mapredu",
+				"still/mapreduce/mapreduce_base.py"
+			],
+			[
+				"analyze_",
+				"still/runner/analyze_run.py"
+			],
+			[
+				"mapreduce_an",
+				"still/mapreduce/mapreduce_analyze.py"
+			],
+			[
+				"table.p",
+				"server/table.py"
+			],
+			[
+				"tablet",
+				"util/tabletools.py"
+			],
+			[
+				"mapreduce_b",
+				"still/mapreduce/mapreduce_base.py"
+			],
+			[
+				"server.p",
+				"still/server.py"
+			],
+			[
+				"mapreduce_ana",
+				"still/mapreduce/mapreduce_analyze.py"
+			],
+			[
+				"mapreduce_ba",
+				"still/mapreduce/mapreduce_base.py"
+			],
+			[
+				"table.",
+				"server/table.py"
+			],
+			[
+				"hdfsu",
+				"still/hdfsutils.py"
+			],
+			[
+				"client.p",
+				"scripts/automation/client.py"
+			],
+			[
+				"suite",
+				"test/e2e/tabledetails-suite.js"
+			],
+			[
+				"table-deta",
+				"test/e2e/controllers/table-details-po.js"
+			],
+			[
+				"mapreduce_pr",
+				"still/mapreduce/mapreduce_profile.py"
+			],
+			[
+				"client",
+				"scripts/automation/client.py"
+			],
+			[
+				"clearhd",
+				"scripts/clearhdfs.py"
+			],
+			[
+				"tabletool",
+				"util/tabletools.py"
+			],
+			[
+				"pipeline",
+				"util/pipeline_state.py"
+			],
+			[
+				"move_e",
+				"still/runner/move_existing_run.py"
+			],
+			[
+				"transform_ru",
+				"still/runner/transform_run.py"
+			],
+			[
+				"tabletoo",
+				"util/tabletools.py"
+			],
+			[
+				"table-det",
+				"client/js/controllers/table-details.js"
+			],
+			[
+				"view.j",
+				"client/js/controllers/modals/render-view.js"
+			],
+			[
+				"games",
+				"scripts/automation/gamesys.py"
+			],
+			[
+				"financials-tx",
+				"scripts/automation/gamesys/workflow/financials-tx.json"
+			],
+			[
+				"financials.js",
+				"scripts/automation/gamesys/workflow/financials.json"
+			],
+			[
+				"mapreduce_r",
+				"still/mapreduce/mapreduce_rowcount.py"
+			],
+			[
+				"samplin",
+				"still/runner/sampling_run.py"
+			],
+			[
+				"cloudera",
+				"scripts/ubuntu/cloudera.py"
+			],
+			[
+				"manyr",
+				"scripts/automation/gamesys/manyrollbase.bash"
+			],
+			[
+				"sequen",
+				"sequencing.ipynb"
+			],
+			[
+				"server.",
+				"still/server.py"
+			],
+			[
+				"test.sc",
+				"scripts/automation/gamesys/test.schema"
+			],
+			[
+				"finan",
+				"scripts/automation/gamesys/financials.json"
+			],
+			[
+				"updatesc",
+				"scripts/updateschema.py"
+			],
+			[
+				"",
+				"server/table.py"
+			],
+			[
+				"config.y",
+				"conf/config.yaml"
+			],
+			[
+				"dist",
+				"server/distillerizer.py"
+			],
+			[
+				"table-up",
+				"client/js/controllers/table-update.js"
+			],
+			[
+				"cilent.p",
+				"scripts/automation/client.py"
+			],
+			[
+				"s3up",
+				"scripts/automation/s3upload.py"
+			],
+			[
+				"config.p",
+				"util/config.py"
+			],
+			[
+				"config.yaml",
+				"config.yaml.template"
+			],
+			[
+				"config",
+				"util/config.yaml"
+			],
+			[
+				"queue",
+				"util/queue.py"
+			],
+			[
+				"queue_m",
+				"util/queue_mock.py"
+			],
+			[
+				"cloud_im",
+				"ingestion/cloud_import.py"
+			],
+			[
+				"sampling",
+				"still/runner/sampling_run.py"
+			],
+			[
+				"run.p",
+				"scripts/automation/run.py"
+			],
+			[
+				"s3_c",
+				"still/runner/s3_csv_import_run.py"
+			],
+			[
+				"process",
+				"util/process.py"
+			],
+			[
+				"process.p",
+				"util/process.py"
+			],
+			[
+				"cloud_impo",
+				"ingestion/cloud_import.py"
+			],
+			[
+				"user",
+				"server/user.py"
+			],
+			[
+				"table.o",
+				"test/e2e/controllers/table-details-po.js"
+			],
+			[
+				"init.bash",
+				"scripts/automation/gamesys/init.bash"
+			],
+			[
+				"table",
+				"server/table.py"
+			],
+			[
+				"drivers",
+				"tests/e2e/helpers/drivers.py"
+			],
+			[
+				"e2e_",
+				"tests/e2e/e2e_test_basic_functionality.py"
+			],
+			[
+				"user.p",
+				"server/user.py"
+			],
+			[
+				"test_rest",
+				"server/test/test_restapi.py"
+			],
+			[
+				"analyze_ru",
+				"still/runner/analyze_run.py"
+			],
+			[
+				"sequence",
+				"scripts/automation/sequence.py"
+			],
+			[
+				"upgradejo",
+				"scripts/ansible/upgradejobnodes.sh"
+			],
+			[
+				"deploy",
+				"scripts/deploy.sh"
+			],
+			[
+				"index.h",
+				"client/index.html"
+			],
+			[
+				"run_int",
+				"tests/e2e/run_integration_tests.py"
+			],
+			[
+				"test.p",
+				"test.py"
+			],
+			[
+				"upgrade",
+				"scripts/ansible/upgradejobnodes.sh"
+			],
+			[
+				"bigquer_ex",
+				"still/runner/bigquery_export_run.py"
+			],
+			[
+				"table-details.j",
+				"client/js/controllers/table-details.js"
+			],
+			[
+				"read",
+				"README.md"
+			],
+			[
+				"seque",
+				"scripts/automation/gamesys/sequence.py"
+			],
+			[
+				"table-list",
+				"client/partials/table-list.html"
+			],
+			[
+				"desi",
+				"server/db/designdoc.json"
+			],
+			[
+				"init.",
+				"scripts/automation/sfly/init.bash"
+			],
+			[
+				"design",
+				"server/db/designdoc.json"
+			],
+			[
+				"table-list.j",
+				"client/js/controllers/table-list.js"
+			],
+			[
+				"analy",
+				"still/runner/analyze_run.py"
+			],
+			[
+				"mapr",
+				"still/mapreduce/mapreduce_rowcount.py"
+			],
+			[
+				"s3csv",
+				"still/runner/s3_csv_import_run.py"
+			],
+			[
+				"event-list",
+				"client/js/controllers/event-list.js"
+			],
+			[
+				"event.j",
+				"client/bower_components/jquery/src/event.js"
+			],
+			[
+				"event.h",
+				"client/partials/modals/event.html"
+			],
+			[
+				"datanod",
+				"scripts/ubuntu/datanode_prep.sh"
+			],
+			[
+				"pipelin",
+				"util/pipeline_state.py"
+			],
+			[
+				"dirty_",
+				"still/runner/dirty_run.py"
+			],
+			[
+				"financi",
+				"scripts/automation/gamesys/financials.json"
+			],
+			[
+				"analyze",
+				"still/runner/analyze_run.py"
+			],
+			[
+				"creatures",
+				"scripts/automation/gamesys/creaturesevents.schema"
+			],
+			[
+				"mapreduce_trans",
+				"still/mapreduce/mapreduce_transform.py"
+			],
+			[
+				"tableto",
+				"util/tabletools.py"
+			],
+			[
+				"creature",
+				"scripts/automation/gamesys/creaturesevents.schema"
+			],
+			[
+				"final",
+				"scripts/automation/gamesys/financials.schema"
+			],
+			[
+				"cloud_",
+				"ingestion/cloud_import.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Volumes/opt/src/dio/distillerizer.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 207.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 275.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
