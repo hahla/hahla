@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32" nextobjectid="16">
+ <tileset firstgid="1" name="grass-tiles-2-smalls" tilewidth="32" tileheight="32">
+  <image source="../../../../../Users/ms/Downloads/tileset/grass-tiles-2-small.png" width="384" height="192"/>
+ </tileset>
+ <tileset firstgid="73" name="tree2-final" tilewidth="32" tileheight="32">
+  <image source="../../../../../Users/ms/Downloads/tileset/tree2-final.png" width="256" height="256"/>
+ </tileset>
+ <layer name="Background" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxtlLtyxSAMRGkSI7oEUJP0yf9/YfBEO3O8cwsNliytVg/orbVxJI9cRya+d8kquf36kSiRPoAxIBMYu3xXfafFbpzbfKL0idy9/tOPHLv5Ur+shqtipYuj1+t16L/sb0fey3cCL8F1vvDPwuvAuzl9HPmsGPbUZxN1yj9hF1aAwwZH1bLMnrCzzwN5dU6c2/DUx9We8x2wp+GoD47Dvqs+zWegRmEOO5mD89wv/MUjkTuRZ1m8z0UxihNH7rrmL8yvI9+IlR7mTyxx7ph/GN4yPNUk/96ee8pZBXTycXzuBvHixX/1TvHqE/F5F3TPuJNhdu8f8bkTxHPMjdystxs+949vXrQnP+5wGt4yfsJSbu41Z8H3zvvF+nkfBnJyd1mr+vXb/vf4tv+UzjvCt+WWP4AVGSE=
+  </data>
+ </layer>
+ <layer name="Tree base" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4B6oBqIa4C4FojrqGBeMxC3AHErELdRwbxRMApGAfUAABkBBAU=
+  </data>
+ </layer>
+ <layer name="Tree top" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztzDlSQgEURFG2h4BMIjOCgswoM5KAJrhszgJ+9Moy+l11kg5uJvM/y/JAjjwFHilSCvTKVKjyRI1n6jQCvSYt2nTo0uOFfqA34JU3hox4Z8wk0JsyY86CJSs++Az01mzYsmPPgSOnQO+Lc8J/4RroffOT8N/4DfTSpUv397sDV3gWHQ==
+  </data>
+ </layer>
+ <objectgroup name="collisions">
+  <object id="6" name="trunk" x="247" y="245" width="138" height="43"/>
+  <object id="8" name="bush1" x="99" y="355" width="59" height="58"/>
+  <object id="9" name="bush2" x="100" y="132" width="56" height="54"/>
+  <object id="10" name="bush3" x="484" y="131" width="57" height="58"/>
+  <object id="11" name="bush4" x="483" y="358" width="59" height="56"/>
+  <object id="12" name="hedge" x="225" y="353" width="62" height="290"/>
+  <object id="13" name="hedge2" x="355" y="354" width="60" height="288"/>
+  <object id="14" x="166" y="-107"/>
+  <object id="15" x="444" y="-33"/>
+ </objectgroup>
+</map>

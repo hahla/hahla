@@ -5,6 +5,21 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+.wave1 {
+  background-color: #30b1ce;
+}
+.wave2 {
+  background-color: #29a4c3;
+}
+.wave3 {
+  background-color: #318db2;
+}
+.wave4 {
+  background-color: #046997;
+}
+.wave5 {
+  background-color: #003b61;
+}
 html,
 body {
   height: 100%;
