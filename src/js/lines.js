@@ -1,30 +1,17 @@
-hahla.directive('lines', function() {
-    return {
-        controller: 'LinesController',
-        restrict: 'E',
-        replace: true,
-        templateUrl: 'partials/lines.html',
-        scope: {
-            animate: '=run',
-        }
-    };
-});
+var THREE = require('three');
+var $ = require('jQuery');
+require('../css/hahla.scss');
+require('ng-cache!../partials/lines.html');
 
-
-hahla.controller('LinesController', function($scope, $timeout){
-    $scope.linesid = 'lines' + (new Date()).getMilliseconds();
+var linesController = function($scope, $timeout, $templateCache) {
     var container;
     var camera, scene, raycaster, renderer, parentTransform, sphereInter;
     var mouse = new THREE.Vector2();
     var radius = 100, theta = 0;
     var currentIntersected;
 
-    function getelement(){
-        return $('#' + $scope.linesid);
-    }
-
     function init() {
-        container = getelement();
+        container = $('#linesbox');
         camera = new THREE.PerspectiveCamera(70,
                                              window.innerWidth / window.innerHeight,
                                              1,
@@ -90,7 +77,7 @@ hahla.controller('LinesController', function($scope, $timeout){
         raycaster.linePrecision = 3;
 
         renderer = new THREE.WebGLRenderer( { antialias: true } );
-        renderer.setClearColor( 0xf0f0f0 );
+        renderer.setClearColor( 0x000000 );
         renderer.setSize(container.width(), container.height());
 
         container.append(renderer.domElement);
@@ -110,7 +97,6 @@ hahla.controller('LinesController', function($scope, $timeout){
         mouse.x = ( event.clientX / window.innerWidth ) * 2 - 1;
         mouse.y = - ( event.clientY / window.innerHeight ) * 2 + 1;
     }
-
 
     function render() {
         theta += 0.1;
@@ -142,21 +128,24 @@ hahla.controller('LinesController', function($scope, $timeout){
     }
     // wait for the rendering of the directive to appear in the dom before loading it
     // alternatively could create the element as a child on linked element
-    $timeout(init, 30);
+    $timeout(init, 10);
     animate();
 
-    $scope.watch('animate', function(newVal, oldVal){
-        $scope.animate = newVal;
-        animate();
-    });
-
     function animate() {
-        if (!$scope.animate){
-            return;
-        }
         $timeout(function(){
             requestAnimationFrame( animate );
             render();
-        }, 200);
+        }, 10);
     }
+};
+
+define(function(require) {
+    return function() {
+        return {
+            restrict: 'E',
+            replace: false,
+            templateUrl: 'lines.html',
+            controller: linesController
+        };
+    };
 });

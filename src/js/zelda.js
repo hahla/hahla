@@ -10,7 +10,7 @@ hahla.directive('zelda', function() {
     };
 });
 
-hahla.controller('zeldaController', function($scope, $timeout){
+hahla.controller('zeldaController', function($scope, $http, $timeout){
     $scope.zelda = $scope.zelda || {};
     $http.post('http://localhost:3000/game')
         .success(function(data, status, headers, config) {

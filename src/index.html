@@ -1,0 +1,59 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!-- script type="text/javascript" src="bundle.js" charset="utf-8"></script -->
+    <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Pirata+One' rel='stylesheet' type='text/css'>
+
+  </head>
+  <body class="test" ng-app='hahla'>
+    <div ng-controller="HahlaController" class="container">
+
+      <div class="grid">
+          <div id="qx" class="newquad pull-left">
+            <lines ng-if="!hahla.thing"></lines>
+            <div ng-if="hahla.thing">
+            <div style="font-family: 'Pirata One', bold; position: absolute;
+                        left: 450; font-size: 2em">
+                        this is closer to how it feels</div>
+            <div ng-if="hahla.thing"><waves></waves></div>
+            </div>
+          </div>
+          <div id="q1" class="newquad pull-right"
+            style="font-family: 'Shadows Into Light Two', cursive; font-size: 1.3em">
+              this must be the worst nav ever
+            <div class="input-group" style="position: absolute; botto: 0">
+              <form class="form-inline" role="form">
+                    <select id="projectFilter"
+                            ng-model="hahla.thing"
+                            ng-options="thing for thing in hahla.thinglist"
+                            name="thing"
+                            class="form-control" >
+                        <option default value="">----- how's my lil pirate? ------</option>
+                    </select>
+              </form>
+            <div><button ng-click="hahla.thing='asdf'" style="color: blueviolet">dreaming of the ocean?</button>
+            </div>
+            </div>
+
+          </div>
+
+          <div id="q4" class="newquad pull-left"><convo></convo>
+            <lines ng-if="!hahla.thing"></lines>
+          </div>
+          <div id="q3" class="newquad pull-right" ng-if="!hahla.thing" style="position: absolute; bottom: 0"><convo></convo>
+          </div>
+      </div>
+     <!--  <waves></waves> -->
+
+    </div>
+
+      <!-- <div class="grid">
+        <div class="newquad aqua pull-left">asdf</div>
+        <div class="newquad blue pull-right">zxcv</div>
+        <div class="newquad green pull-left">345</div>
+        <div class="newquad tan pull-right">789</div>
+      </div> -->
+      </div>
+  </body>
+</html>
